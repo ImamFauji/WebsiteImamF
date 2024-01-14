@@ -1,0 +1,124 @@
+body {
+  background-color: #6499e9;
+}
+
+html {
+  height: 100%;
+}
+
+img {
+  object-fit: cover;
+}
+
+.body2 {
+  background: url("https://wallpapercave.com/wp/wp8413111.jpg");
+  background-size: cover;
+}
+
+.carousel {
+  background-color: white;
+  padding: 5rem;
+}
+
+.bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.7);
+}
+
+nav.navbar {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+p.mb-0 {
+  font-weight: 500;
+}
+
+.col-5 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+.container {
+  position: static;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.637);
+  color: white;
+}
+
+.list-group-item {
+  background-color: rgba(0, 0, 0, 0.637);
+  color: white;
+  border: 1px solid white;
+}
+
+small.text-muted {
+  color: white;
+}
+
+.covergambar {
+  height: auto;
+  width: 100%;
+}
+
+.bg-image {
+  background-size: cover;
+  background-image: url("");
+}
+
+.row {
+  background-size: cover;
+  min-height: 10px;
+  position: relative;
+  margin-right: 0;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 0px solid red;
+}
+
+.profile {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  overflow: auto;
+  transform: translate(-50% -50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+    min-height: 5px;
+  }
+  h1 {
+    font-size: calc(1.525rem+3.3vw);
+  }
+  .nav-link {
+    /* font-size: 0.9vh; */
+  }
+
+  .carousel {
+    padding: 1rem;
+  }
+
+  .bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
