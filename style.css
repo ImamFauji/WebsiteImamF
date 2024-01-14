@@ -1,6 +1,8 @@
 body {
   background-color: #6499e9;
   /* min-height: 100%; */
+  background-image: url(image/planes_cover.jpg);
+  background-repeat: repeat;
 }
 
 html {
