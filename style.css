@@ -117,6 +117,7 @@ small.text-muted {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
   }
   .d-block {
     width: 100%;
@@ -144,6 +145,7 @@ small.text-muted {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
   }
   .d-block {
     width: 100%;
